@@ -1,0 +1,14 @@
+adiciona dígitos
+
+A -> int
+B -> int
+C -> int
+D -> int
+E -> int
+
+system.out.println("Escreva 1 número");
+ler ->(A);
+system.out.println("Escreva outro número");
+ler -> (B);
+C <- (A + B);
+
