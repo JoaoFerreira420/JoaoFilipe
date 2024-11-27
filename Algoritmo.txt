@@ -5,11 +5,16 @@ B -> int
 C -> int
 D -> int
 E -> int
+F -> int
 
 system.out.println("Escreva 1 número");
 ler ->(A);
 system.out.println("Escreva outro número");
 ler -> (B);
 C <- (A + B);
-system.out.println(C);
-
+	if (C > 9){
+	D = C/2
+	E = c%2
+	}
+F <- D + E;
+system.out.println(F);
