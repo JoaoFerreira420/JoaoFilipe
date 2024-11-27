@@ -1,4 +1,4 @@
-adiciona dígitos
+﻿adiciona dígitos
 
 A -> int
 B -> int
@@ -11,4 +11,5 @@ ler ->(A);
 system.out.println("Escreva outro número");
 ler -> (B);
 C <- (A + B);
+system.out.println(C);
 
